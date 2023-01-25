@@ -14,7 +14,9 @@
   }
   
 @media (max-width: 42em) {
-
+    html{
+      font-size: 59%;
+    }
     .grid {
       row-gap: 4.8rem;
     }
@@ -47,13 +49,15 @@
         margin-top: 5rem;
     }
 
+    .hero-img-box{
+      position: relative;
+      left: 19.4rem;
+      top:-8.4rem;
+    }
 
     .hero-img{
         max-width: 50%;
         margin-top: 0;
-        position: relative;
-        left: 20.7rem;
-        top:-6.8rem;
     }
 
     .hero-discription{
@@ -121,7 +125,10 @@
         padding: 0rem 0rem;
         text-align: center;
     }
-    
+    .how-icon{
+      font-size: 1rem;
+      padding: 0.5rem;
+    }
     .how-link{
         font-size: 1rem  ;
     }
@@ -131,14 +138,17 @@
     }
 
     .how-container{
-        margin-top: 2rem;
+      margin-top: 2rem;
+      margin-left: 0.1rem;
+      margin-right: 0.1rem;
+      padding: 2rem 1rem;
     }
 
 
     .how-btn{
         position: relative;
         margin-right: 0;
-        right: 10rem;
+        right: 8rem;
         top: -10rem;
     }
     
@@ -150,6 +160,8 @@
       max-width: 35rem;
       padding: 0rem 1rem;
       margin-bottom: 6rem;
+      margin-right:2.5rem ;
+      margin-left: 2.5rem;
     }
     .market-img-box {
         display: none;
@@ -158,9 +170,6 @@
     .market-text-box {
       padding: 3rem 0;
       padding-bottom: 0.3rem;
-      margin-bottom: 0rem;
-      padding-left: 0rem;
-      padding-right: 0rem;
       text-align: center;
     }
 
@@ -169,7 +178,7 @@
       gap: 0.2rem;
       flex-direction: column;
       align-items: center;
-      margin-right: 8rem;
+      margin-left: -6rem;
     }
     
     .market-list-2{
@@ -200,7 +209,7 @@
     }
 
     .wherever-box{
-      margin-left: -5rem;
+      margin-left: -4rem;
     }
 
     .wherever-img-box {
@@ -213,7 +222,7 @@
       gap: 0.01rem;
       padding: 1rem 0rem;
       border: 2px solid #1e2034;
-      width: 35rem;
+      width: 33rem;
       border-radius: 1rem;
       height: 8rem;
       margin-bottom: 1rem;
@@ -261,7 +270,7 @@
 
     .icon-1 {
       background-color: #ffffff;
-      padding: 6rem 10rem;
+      padding: 6rem 8rem;
       padding-top: 5rem;
       border: 3rem solid #fff;
       box-shadow: 1rem 1rem 3rem rgba(46, 45, 45, 0.163);
@@ -269,7 +278,7 @@
     
     .icon-2 {
       background-color: #ffffff;
-      padding: 6rem 10rem;
+      padding: 6rem 8rem;
       padding-top: 5rem;
       border: 3rem solid #fff;
       box-shadow: 1rem 0rem 3rem rgba(46, 45, 45, 0.163);
@@ -277,7 +286,7 @@
     
     .icon-3 {
       background-color: #ffffff;
-      padding: 6rem 10rem;
+      padding: 6rem 8rem;
       padding-top: 5rem;
       border: 3rem solid #fff;
       box-shadow: 1rem 1rem 3rem rgba(46, 45, 45, 0.163);
@@ -285,20 +294,11 @@
     
     .icon-4 {
       background-color: #ffffff;
-      padding: 6rem 10rem;
+      padding: 6rem 8rem;
       padding-top: 5rem;
       border: 3rem solid #fff;
       box-shadow: 1rem 1rem 3rem rgba(46, 45, 45, 0.163);
     }
-
-    
-
-
-
-    .section-how-2 {
-      padding: 0rem 1rem;
-    }
-
     .how-2{
       height: 200rem;
     }
@@ -308,17 +308,19 @@
     }
 
     .how-2-img-1{
-      width: 35rem;
-      height: 20rem;
+      width: 34rem;
+      height: 17rem;
+      margin-left: -1rem;
     }
 
     .play-btn-default {
-      top: 8rem;
+      top: 6rem;
       right: 63%;
+   
     }
-
     .how-2-text-box{
       margin-left: 0;
+      margin-top: -14rem;
     }
 
     .heading-tertiary-how-2{
@@ -326,8 +328,8 @@
     }
     .how-2-img-2{
       position: relative;
-      bottom: -42rem;
-      left: -41rem;
+      bottom: -39rem;
+      left: -40rem;
     }
     .btn-how-2{
       margin-top: 0rem;
@@ -346,17 +348,18 @@
 
     .download-btn-list{
       position: relative;
-      left: -3rem;
+      left: -1rem;
     }
 
     .btn-apple {
       font-size: 1rem;
       font-weight: 300;
+      
       font-weight: bold;
       padding: 1rem 0rem;
     }
     .btn-android{
-      margin-left: -5rem;
+      
       font-size: 1rem;
       font-weight:300 ;
       font-weight: bold;
@@ -377,6 +380,9 @@
       background-color: #ffffff;
       padding: 0rem 0rem;  
   
+    }
+    .btn-pricing-container{
+      max-width: 16rem;
     }
     .pricing{
       padding-bottom: 4rem;
@@ -425,12 +431,14 @@
     }
     .author{
      padding: 4rem 2rem ; 
-     height: 50rem;
+     height: 45rem;
+     width: 30rem;
      margin-bottom: 0rem;
     }
     .author-discription{
       text-align: center;
-      font-size: 1.2rem;
+      font-size: 1rem;
+      line-height: 1.8rem;
       font-weight: 300;
       font-weight: bold;
     }
@@ -448,6 +456,11 @@
       background-color: #ffffff;
       padding: 0rem 0rem;  
     } 
+    .heading-work{
+      margin: 1rem 0;
+      padding: 0;
+      font-size: 3rem;
+    }
 
     .work{
       max-width: 120rem;
@@ -466,11 +479,11 @@
       gap: 2rem;
     }
 
-    .work-item--1{
+    .work-item--10{
       justify-content: center;
       align-items: center;
       position: relative;
-      right: -9.5rem;
+      right: -10rem;
     }
 
     .sponser-1{
@@ -576,13 +589,13 @@
       text-align: center;
     }
     .fa-location-dot{
-      margin-right: -7rem;
+      margin-right: -4rem;
     }
     .fa-phone-flip{
       margin-right: 0.2rem;
     }
     .fa-envelope{
-      margin-right: 0.2;
+      margin-right: 0.2rem;
     }
     .footer-end{
       margin: 0 4rem;
@@ -593,9 +606,9 @@
     }
     
     .download-btn-list-footer{
-      margin-left: 0;
-      text-align: center;
-      margin-left: -5rem;
+      /* margin-left: 0; */
+      /* text-align: center; */
+      margin-left: -6.6rem;
     }
 
     .footer-fa-apple{
@@ -695,149 +708,3 @@
 
 
 
-/* ************************
-/* BELOW 1200px (Landscape Tablets) */
-/**************************/
-/* 
-@media (max-width: 75em) {
-    html {
-      9px / 16px 
-      font-size: 56.25%;
-    }
-    .grid{
-       column-gap:4.8 ;
-       row-gap: 6.4; 
-    }
-    .heading-secondary{
-        font-size: 3.6rem;
-    }
-    .heading-tertiary{
-        font-size: 2.4rem;
-    }
-    .input-list {
-        gap: 3rem;
-        margin-left: -3.5rem;
-    }
-    .header{
-        padding: 0 3.2rem;
-    }
-    .hero{
-        padding-bottom: 2rem;
-        gap: 4.8rem;
-    }
-    .main-nav-list {
-        gap: 3.2rem;
-      }
-}
-
-**************************
-* BELOW 944px (Tablets) *
-**************************
-
-@media (max-width: 59em) {
-    html {
-      8px / 16px = 0.5 = 50%
-      font-size: 50%;
-    }
-  
-    .hero {
-      grid-template-columns: 1fr;
-      padding: 0 8rem;
-      gap: 6.4rem;
-    }
-
-    .hero-text-box{
-        margin-top: 10rem;
-    }
-
-    .hero-text-box,
-    .hero-img-box {
-        text-align: left;
-        align-items: center;
-        justify-self: center;
-    }
-
-    .hero-img {
-        width: 60%;
-      }
-    .delivered-meals {
-        justify-content: center;
-        margin-top: 3.2rem;
-      }
-    .input-list {
-        align-items: center;
-        margin-left: -1.5rem;
-      }    
-} */ 
-
-/**************************/
-/* BELOW 544px (Phones) */
-/**************************/
-
-/* @media (max-width: 34em) {
-    .btn-mobile-nav {
-        display: block;
-        z-index: 9999;
-      }
-    
-      .main-nav {
-        background-color: rgba(255, 255, 255, 0.9);
-        -webkit-backdrop-filter: blur(5px);
-        backdrop-filter: blur(10px);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        transform: translateX(100%);
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.5s ease-in;
-    
-        /* Hide navigation */
-        /* Allows NO transitions at all */
-        /* display: none; */
-    
-        /* 1) Hide it visually */
-      /*  opacity: 0;
-    
-        /* 2) Make it unaccessible to mouse and keyboard */
-      /*  pointer-events: none;
-    
-        /* 3) Hide it from screen readers */
-      /*  visibility: hidden;
-      }
-    
-      .nav-open .main-nav {
-        opacity: 1;
-        pointer-events: auto;
-        visibility: visible;
-        transform: translateX(0);
-      }
-      
-      .nav-open .main-nav {
-        opacity: 1;
-        pointer-events: auto;
-        visibility: visible;
-        transform: translateX(0);
-      }
-    
-      .nav-open .icon-mobile-nav[name="close-outline"] {
-        display: block;
-      }
-    
-      .nav-open .icon-mobile-nav[name="menu-outline"] {
-        display: none;
-      }
-    
-      .main-nav-list {
-        flex-direction: column;
-        gap: 4.8rem;
-      }
-    
-      .main-nav-link:link,
-      .main-nav-link:visited {
-        font-size: 3rem;
-      } */
