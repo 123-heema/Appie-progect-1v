@@ -1186,7 +1186,9 @@ input[type="checkbox"] {
   padding: 1.6rem;
 }
 
-
+.heading-work{
+  margin: 0 30rem;
+}
 
 .work-item img {
   display: block;
